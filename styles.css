@@ -1,60 +1,64 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-top:7%;
-  color:white;
+  padding-top: 7%;
+  color: white;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-body{
-  overflow:hidden;
+body {
+  overflow: hidden;
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
-  text-align:center;
-
+  text-align: center;
 }
 
-.top-circle{
-  position:absolute;
-  top:-600px;
-  left:-200px;
+table {
+  margin: auto;
 }
 
-.card{
+td {
+  padding: 30px;
+}
+
+.top-circle {
+  position: absolute;
+  top: -600px;
+  left: -15%;
+  z-index: -1;
+}
+.bottom-circle {
+  position: absolute;
+  text-align: left;
+  top: 300px;
+  z-index: -1;
+}
+.card {
   display: inline-block;
   background-color: white;
   text-align: center;
   line-height: 2;
   border-radius: 10%;
-  overflow:hidden;
-  margin-top:7%
+  overflow: hidden;
+  margin-top: 7%
 }
 
-.profile_pic{
+.profile_pic {
   border-radius: 100%;
   position: relative;
-  top:-50px;
-  margin-bottom:20px;
-}
-table{
-  margin:auto;
+  top: -50px;
+  margin-bottom: 20px;
 }
 
-.bold{
-font-weight:700;
+
+
+.bold {
+  font-weight: 700;
 }
-.light{
+
+.light {
   font-weight: 400;
 }
-td{
-  padding:30px;
-}
-
-.bottom-circle{
-  position: absolute;
-  text-align: left;
-  top:300px;
-  }
