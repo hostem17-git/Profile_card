@@ -1,6 +1,8 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top:7%;
+  color:white;
 }
 
 .attribution a {
@@ -10,12 +12,15 @@
 body{
   overflow:hidden;
   background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align:center;
+
 }
 
 .top-circle{
   position:absolute;
   top:-600px;
-  left:-400px;
+  left:-200px;
 }
 
 .card{
@@ -24,7 +29,8 @@ body{
   text-align: center;
   line-height: 2;
   border-radius: 10%;
-  margin:auto;
+  overflow:hidden;
+  margin-top:7%
 }
 
 .profile_pic{
@@ -37,12 +43,18 @@ table{
   margin:auto;
 }
 
+.bold{
+font-weight:700;
+}
+.light{
+  font-weight: 400;
+}
 td{
   padding:30px;
 }
 
 .bottom-circle{
   position: absolute;
+  text-align: left;
   top:300px;
-  left:1000px;
   }
